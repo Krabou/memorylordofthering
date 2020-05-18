@@ -38,7 +38,7 @@ function generation() {
     }
 }
 
-/*on cache les cartes après 4 secondes */
+/*on cache les cartes */
 var hide = setTimeout(function () {
     for (var i = 0; i < 16; i++) {
         carteList[i].firstChild.classList.add("hidden")
