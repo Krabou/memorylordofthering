@@ -58,6 +58,7 @@ section {
 
 .carteList {
     background: url(../img/back.jpg) 0 0 no-repeat;
+    background-size: cover;
     border: solid 1px #b39b6f;
     height: 17vh;
     margin: 1vh;
