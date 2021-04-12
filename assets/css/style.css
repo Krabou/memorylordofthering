@@ -37,6 +37,8 @@ h2 {
 
 .bg {
     background: url(../img/bg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction:column;
     height: 75vh;
@@ -72,8 +74,8 @@ section {
 }
 
 img {
-    height: 17vh;
-    width: 15vh;
+    height: 100%;
+    width: 100%;
 }
 
 .hidden {
